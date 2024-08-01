@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>chess clock</title>
+
+  </head>
+
+  <body>
+
+    <main>
+    
+      <div class="player">
+      
+        <div class="player__tile player-1">
+          <div class="player__digits">
+            <span id="min1">20</span>:<span id="sec1">00</span>
+          </div>
+        </div>
+        
+        <div class="player__tile player-2">
+          <div class="player__digits">
+            <span id="min2">20</span>:<span id="sec2">00</span>
+          </div>
+        </div>
+        
+      </div>
+      
+      <div class="timer__buttons">
+        <button class="timer__start-bttn bttn" type="button">START</button>
+        <button class="timer__reset-bttn bttn" type="button">RESET</button>
+      </div>
+
+    </main>
+
+    <footer>
+
+      <p>Press spacebar or click on timer after a move to switch player's clock.</p>
+
+    </footer>
+
+    <script src="./script.js"></script>
+
+  </body>
+
+</html>
