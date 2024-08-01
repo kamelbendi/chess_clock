@@ -124,3 +124,19 @@ document.addEventListener('keypress', event => {
         swapPlayer();
     }
 });
+
+var player1 = document.getElementById("player-1"); //grab the element
+player1.onclick = function() { //asign a function
+//code
+    if (currentPlayer === 1) {
+        swapPlayer();
+    }
+}
+
+var play2 = document.getElementById("player-2"); //grab the element
+play2.onclick = function() { //asign a function
+//code
+if (currentPlayer === 2) {
+    swapPlayer();
+}
+}
